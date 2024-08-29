@@ -12,17 +12,17 @@ import {
 const Header = () => {
   return (
     <>
-      <nav className="py-4 flex justify-between items-center">
+      <nav className="py-4 px-6 flex justify-between items-center">
         <Link>
-          <img src={logo} className="h-16" />
+          <img src={logo} alt="HireHaven Logo" className="h-16" />
         </Link>
-        {/* <Button variant="outline">Login</Button> */}
-        <SignedOut>
+        <Button variant="outline">Login</Button>
+        {/* <SignedOut>
           <SignInButton />
         </SignedOut>
         <SignedIn>
           <UserButton />
-        </SignedIn>
+        </SignedIn> */}
       </nav>
     </>
   );

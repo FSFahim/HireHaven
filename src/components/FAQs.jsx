@@ -13,7 +13,7 @@ const FAQs = () => {
       {faqs.map((faq, index) => {
         return (
           <AccordionItem
-            className="bg-card"
+            // className="bg-card"
             key={index}
             value={`item-${index + 1}`}
           >
